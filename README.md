@@ -1,4 +1,7 @@
 # API方法
+- 左右切换的箭头使用了在线的font，需要引入；
+- 需要在引入此js之前引入jQuery
+
 - 一般的使用方法，在input元素上调用fdatepicker()方法
 - onRender：控制日期的天数哪些为不可选状态，但是不能控制时间为不可选状态，不可选的日期`return disable;`即可,onRender()方法会在生成日历界面时不断调用，date参数表示的就是日历上的一天，如上例，date小于某个日期时，返回 disabled，那么小于这个日期的时间全部不可选
 
